@@ -12,9 +12,9 @@ CREATE TABLE department(
 
 -- CREATE TABLE role (
 --   id INT NOT NULL AUTO_INCREMENT,
---   title VARCHAR(30) NULL,
---   salary decimal,
---   department_id Foreign key,
+--   title VARCHAR(30) NOT NULL,
+--   salary DECIMAL(10,2),
+--   department_id FORIEGN KEY,
 --   PRIMARY KEY (id)
 -- );
 
