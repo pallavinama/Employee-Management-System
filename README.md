@@ -12,9 +12,12 @@ Upon launching the app, the user is prompted with a set of options from which th
 
 Technologies:
 
-Inquirer
-mysql
+Inquirer package
+
+mysql package
+
 MySQL Workbench
+
 console.table
 
 Author:
