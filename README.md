@@ -20,6 +20,11 @@ App Screenshots:
 
 ![image](https://user-images.githubusercontent.com/61402034/78744967-ebd1ae80-7930-11ea-8a32-1c3a44ffe9a6.png)
 
+![image](https://user-images.githubusercontent.com/61402034/78745131-4703a100-7931-11ea-90fe-4bd12d14f90d.png)
+
+![image](https://user-images.githubusercontent.com/61402034/78745160-5c78cb00-7931-11ea-90e8-d80802147cd3.png)
+
+
 
 
 Technologies:
