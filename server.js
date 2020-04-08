@@ -2,8 +2,7 @@ const inquirer = require("inquirer");
 const mysql = require("mysql");
 const cTable = require("console.table");
 
-var actions = ["View Employees","View Roles","View Departments","Add Employe","Add Role","Add Department","Quit"];
-
+var actions = ["Add Department", "Add Role", "Add Employee","View Departments","View Roles","View Employees","Quit"];
 // array of question objects
 var mainPrompt = [
   {
@@ -190,17 +189,17 @@ function mainMenu() {
     inquirer.prompt(mainPrompt).then(answers => {
         var action = answers.action;
         if (action == actions[0]){
-            viewEmployees();
-        } else if (action == actions[1]){
-            viewRoles();
-        } else if (action == actions[2]){
-            viewDepartments();
-        } else if (action == actions[3]){
-            addEmployee();
-        } else if (action == actions[4]){
-            addRole();
-        } else if (action == actions[5]){
             addDepartment();
+        } else if (action == actions[1]){
+            addRole();
+        } else if (action == actions[2]){
+            addEmployee();
+        } else if (action == actions[3]){
+            viewDepartments();
+        } else if (action == actions[4]){
+            viewRoles();
+        } else if (action == actions[5]){
+            viewEmployees();
         } else if (action == actions[6]){
             connection.end();
         }
